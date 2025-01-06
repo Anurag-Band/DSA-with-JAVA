@@ -40,7 +40,7 @@ public class Patterns {
 //            System.out.println();
 //        }
 
-//    Patter 5 :- Print alphabets pattern till n
+//  Pattern 5 :- Print alphabets pattern till n
 //                    A
 //                    B B
 //                    C C C
@@ -56,6 +56,29 @@ public class Patterns {
 //            }
 //            System.out.println();
 //        }
+
+//   Pattern 6 :- Q.1 ->> Print below pattern
+//        for n = 4;
+//        print :-
+//                  A
+//                  B C
+//                  C D E
+//                  D E F G
+
+//        System.out.print("Enter the value of n : ");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            char initialChar = (char)(65);
+//            for (int j = 0; j < i + 1; j++) {
+//
+//                System.out.print((char)(initialChar + i));
+//                initialChar++;
+//            }
+//            System.out.println();
+//        }
+
 
 
     }
