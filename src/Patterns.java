@@ -58,27 +58,48 @@ public class Patterns {
 //        }
 
 //   Pattern 6 :- Q.1 ->> Print below pattern
-//        for n = 4;
+//        for n = 5;
 //        print :-
-//                  A
-//                  B C
-//                  C D E
-//                  D E F G
+//                  0
+//                  12
+//                  234
+//                  3456
+//                  45678
 
 //        System.out.print("Enter the value of n : ");
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
 //
 //        for (int i = 0; i < n; i++) {
-//            char initialChar = (char)(65);
-//            for (int j = 0; j < i + 1; j++) {
-//
-//                System.out.print((char)(initialChar + i));
-//                initialChar++;
+//            for (int j = i; j <= 2 * i; j++) {
+//                System.out.print(j);
 //            }
 //            System.out.println();
 //        }
+//
 
+//        for n = 4;
+//        print :-
+//                  A
+//                  B C
+//                  C D E
+//                  D E F G
+//        convert to ascii numbers first
+        //          65
+        //          66 67
+        //          67 68 69
+        //          68 69 70 71
+
+//        System.out.print("Enter the value of n : ");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = i; j <= 2 * i; j++) {
+//                System.out.print((char)(j + 65));
+//            }
+//            System.out.println();
+//        }
 
 
     }
