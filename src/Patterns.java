@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Patterns {
     public static void main(String[] args) {
-//  Pattern 1 :- square with zero's
+//  Lecture 1 :- square with zero's
 
 //        for (int i = 0; i <= 4; i++) {
 //            for (int j = 0; j <= 5; j++) {
@@ -11,7 +11,7 @@ public class Patterns {
 //            System.out.println();
 //        }
 
-//  Pattern 2  :-
+//  Lecture 1 :-
 
 //        for (int i = 0; i<=4; i++){
 //            for (int j = 0; j < i + 1; j++){
@@ -20,7 +20,7 @@ public class Patterns {
 //            System.out.println();
 //        }
 
-//  Pattern 3  :-
+//  Lecture 2 :-
 
 //        for (int i = 0; i<=3; i++){
 //            int num = 0;
@@ -31,7 +31,7 @@ public class Patterns {
 //            System.out.println();
 //        }
 
-//  Pattern 4  :-
+//  Lecture 2 :-
 
 //        for (int i = 0; i<=3; i++){
 //            for (int j = 0; j < i + 1; j++){
@@ -40,7 +40,7 @@ public class Patterns {
 //            System.out.println();
 //        }
 
-//  Pattern 5 :- Print alphabets pattern till n
+//  Lecture 3 :- Print alphabets pattern till n
 //                    A
 //                    B B
 //                    C C C
@@ -57,7 +57,7 @@ public class Patterns {
 //            System.out.println();
 //        }
 
-//   Pattern 6 :- Q.1 ->> Print below pattern
+//   Lecture 3 :- Q.1 ->> Print below pattern
 //        for n = 5;
 //        print :-
 //                  0
@@ -100,6 +100,16 @@ public class Patterns {
 //            }
 //            System.out.println();
 //        }
+
+// Lecture 3 :- Q.2 ->> Print the following pattern for the given number of rows.
+//        for n = 5;
+//        print :-
+//                  E
+//                  D E
+//                  C D E
+//                  B C D E
+//                  A B C D E
+
 
 
     }
