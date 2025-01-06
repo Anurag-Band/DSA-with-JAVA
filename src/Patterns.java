@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Patterns {
     public static void main(String[] args) {
 //  Pattern 1 :- square with zero's
@@ -37,5 +39,24 @@ public class Patterns {
 //            }
 //            System.out.println();
 //        }
+
+//    Patter 5 :- Print alphabets pattern till n
+//                    A
+//                    B B
+//                    C C C
+//                    D D D D
+
+//        System.out.print("Enter the value of n : ");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < i + 1; j++) {
+//                System.out.print((char)(65 + i));
+//            }
+//            System.out.println();
+//        }
+
+
     }
 }
