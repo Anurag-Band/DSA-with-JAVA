@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Arrays {
     public static void main(String[] args) {
@@ -23,5 +24,40 @@ public class Arrays {
 
 //        String name = names.get(1);  // Retrieves the element at index 1
 //        System.out.println(name);  // Output: David
+
+//        Example Program
+
+//        // Create an ArrayList of Strings
+//        ArrayList<String> fruits = new ArrayList<>();
+//
+//        // Add elements
+//        fruits.add("Apple");
+//        fruits.add("Banana");
+//        fruits.add("Cherry");
+//
+//        // Print the ArrayList
+//        System.out.println("Fruits: " + fruits);
+//
+//        // Access an element
+//        System.out.println("First fruit: " + fruits.get(0));
+//
+//        // Update an element
+//        fruits.set(1, "Blueberry");
+//        System.out.println("Updated Fruits: " + fruits);
+//
+//        // Remove an element
+//        fruits.remove("Cherry");
+//        System.out.println("After removal: " + fruits);
+//
+//        // Sort the ArrayList
+//        Collections.sort(fruits);
+//        System.out.println("Sorted Fruits: " + fruits);
+//
+//        // Check if the ArrayList contains a value
+//        System.out.println("Contains 'Apple'? " + fruits.contains("Apple"));
+//
+//        // Clear the ArrayList
+//        fruits.clear();
+//        System.out.println("After clearing: " + fruits.isEmpty());
     }
 }
