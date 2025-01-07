@@ -184,6 +184,35 @@ public class Patterns {
 //            System.out.println();
 //        }
 
+//  Lecture 5 :- Q.1 ->>
+//        for n = 4
+//        print :-
+//                    . . . 1
+//                    . . 2 3 2
+//                    . 3 4 5 4 3
+//                    4 5 6 7 6 5 4
+
+//        System.out.print("Enter the value of n : ");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        for (int i = 0; i < n; i++){
+//
+//          for Printing DOTS:
+//            for (int j = 0; j <= n - i - 1; j++){
+//                System.out.print(".");
+//            }
+//          for Printing Increment Nums:
+//            for (int j = i + 1; j <= 2 * i + 1; j++){
+//                System.out.print(j);
+//            }
+//          for Printing Decrement Nums:
+//            for (int j = 2 * i; j >= i + 1; j--){
+//                System.out.print(j);
+//            }
+//
+//            System.out.println();
+//        }
 
     }
 }
