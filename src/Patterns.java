@@ -165,6 +165,25 @@ public class Patterns {
 //            System.out.println();
 //        }
 
+//  Lecture 4 :- Q.2 ->>
+//        for n = 4
+//        print :-
+//                    4 4 4 4      1
+//                    3 3 3
+//                    2 2
+//                    1
+
+        System.out.print("Enter the value of n : ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < n - i; j++){
+                System.out.print(n - i);
+            }
+            System.out.println();
+        }
+
 
     }
 }
