@@ -102,6 +102,27 @@ public class Patterns {
 //        }
 
 // Lecture 3 :- Q.2 ->> Print the following pattern for the given number of rows.
+
+//        for n = 5;
+//        print :-
+//      4
+//      34
+//      234
+//      1234
+//      01234
+
+//        System.out.print("Enter the value of n : ");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        for (int i = 0; i < n; i++){
+//            for (int j = i; j >= 0; j--){
+//                System.out.print(n-(j+1));
+//            }
+//            System.out.println();
+//        }
+
+
 //        for n = 5;
 //        print :-
 //                  E
@@ -110,6 +131,17 @@ public class Patterns {
 //                  B C D E
 //                  A B C D E
 
+//        System.out.print("Enter the value of n : ");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        for (int i = 0; i < n; i++){
+//            for (int j = i; j >= 0; j--){
+//                System.out.print((char) (n-(j+1) + 65));
+//                System.out.print((char) (n - j-1 + 65));
+//            }
+//            System.out.println();
+//        }
 
 
     }
