@@ -59,5 +59,32 @@ public class Arrays {
 //        // Clear the ArrayList
 //        fruits.clear();
 //        System.out.println("After clearing: " + fruits.isEmpty());
+
+//       Q. 1) sum of even numbers and odd numbers in a array
+
+//        int nums[] = {1,2,3,4,5,6,7,8,9};
+//
+//        int sumOfEvens = 0;
+//        int sumOfOdds = 0;
+//
+//        for (int i = 0; i < nums.length; i++){
+//
+//            if (nums[i]%2 == 0){
+//                sumOfEvens += nums[i];
+//            } else {
+//                sumOfOdds += nums[i];
+//            }
+//        }
+//
+//        System.out.println("Sum of Odd's: " + sumOfOdds);
+//        System.out.println("Sum of Even's: " + sumOfEvens);
+
+//        _____________________________________________
+
+
+
+
+
+
     }
 }
