@@ -189,6 +189,34 @@ public class ArraysQues {
 //        }
 //        System.out.println(count);
 
+//        ---------------------------------------------
+
+//        Q. 8) Prime numbers between range
+
+//        Prime Number: a number which is only divisible by 1 & itself
+
+        //        2 % 2 = 0
+        //        2 % 2 = 0...2  ✔️
+
+        //        4 % 1 = 0
+        //        4 % 4 = 0
+        //        4 % 2 = 0...3  ❌
+
+
+//        int n = 20;
+//
+//        for (int i = 0; i < n; i++){
+//            int count = 0;
+//            for (int j = 1; j <= i; j++){
+//                if(i % j == 0){
+//                    count++;
+//                }
+//            }
+//            if(count == 2){
+//                System.out.print(i + " ");
+//            }
+//        }
+
 
 
     }
