@@ -99,6 +99,22 @@ public class Arrays {
 //        System.out.println("Sum of Odd's: " + sumOfOddIdx);
 //        System.out.println("Sum of Even's: " + sumOfEvenIdx);
 
+//        ---------------------------------------------
+
+//        Q. 3) Sum of pairs using single array
+
+//         int nums[] = {1,2,3,4,5,6};
+//
+//         int sum = 0;
+//
+//         for (int i = 0; i < nums.length; i++){
+//             for (int j = i + 1; j < nums.length; j++){
+//                 sum += nums[i] + nums[j];
+//             }
+//         }
+//
+//         System.out.print("Sum : " + sum);
+
 
 
     }
