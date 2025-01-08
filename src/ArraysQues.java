@@ -1,7 +1,8 @@
-import java.util.ArrayList;
 import java.util.Collections;
+import java.util.ArrayList;
+import java.util.Arrays;
 
-public class Arrays {
+public class ArraysQues {
     public static void main(String[] args) {
 //        // Declare and initialize an array
 //        int[] numbers = {10, 20, 30, 40, 50};
@@ -169,6 +170,24 @@ public class Arrays {
 //                 }
 //             }
 //         }
+
+//        ---------------------------------------------
+
+//        Q. 7) Count of distinct element
+//        vis = [f,f,f,t,f,t]
+
+//        int [] arr ={2,3,5,3,6,2};
+//        int n= arr.length;
+//        boolean [] vis= new boolean[101];
+//        Arrays.fill(vis,false);
+//        int count=0;
+//        for(int i=0;i<n;i++){
+//            if(vis[arr[i]]==false){
+//                count++;
+//                vis[arr[i]]=true;
+//            }
+//        }
+//        System.out.println(count);
 
 
 
