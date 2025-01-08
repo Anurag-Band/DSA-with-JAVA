@@ -217,7 +217,38 @@ public class ArraysQues {
 //            }
 //        }
 
+//        ---------------------------------------------
 
+//        Q. 9) Summation of reverse of numbers between a range
+
+//        Step 1:- run a loop for the range
+//        Step 2:- pick a number one by one & reverse it
+//        Step 3:- add the rev number into sum
+
+//        Steps to Reverse a number :-
+
+//        1. do modulo 10 with the number to get the last digit
+//        2. multiply 10 with the rev variable and add the reminder
+//        3. divide the number by 10 to shrink the number
+//        4. do this process until the number becomes 0
+
+//        123 -> 321
+
+        int start = 21;
+        int end = 25;
+        int sum = 0;
+
+        for (int i = start; i <= end; i++){
+            int rev = 0;
+            int num = i;
+            while (num > 0){
+                int rem = num % 10;
+                rev = rev * 10 + rem;
+                num = num / 10;
+            }
+            sum += rev;
+        }
+        System.out.println("Sum: " + sum);
 
     }
 }
