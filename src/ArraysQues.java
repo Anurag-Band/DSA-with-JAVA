@@ -252,6 +252,36 @@ public class ArraysQues {
 
 //        ---------------------------------------------
 
+//        Q. 10) First and last index of a target element of a sorted array
+
+//            int [] arr = {1,2,3,4,5,6,6,7,8};
+//
+//            int target = 6;
+//            int firstIdx = 0;
+//            int lastIdx = 0;
+//
+//            for (int i = 0; i < arr.length; i++){
+//                if(arr[i] == target){
+//                    firstIdx = i;
+//                    break;
+//                } else {
+//                    firstIdx = -1;
+//                }
+//            }
+//
+//            for (int i = arr.length - 1; i >= 0; i--) {
+//                if (arr[i] == target){
+//                    lastIdx = i;
+//                    break;
+//                } else {
+//                    lastIdx = -1;
+//                }
+//            }
+//
+//            System.out.println("First Idx: " + firstIdx);
+//            System.out.println("Last Idx: "+ lastIdx);
+
+
 
     }
 }
