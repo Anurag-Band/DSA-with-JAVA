@@ -81,8 +81,23 @@ public class Arrays {
 
 //        _____________________________________________
 
+//       Q. 2) sum of even index and odd index in an array
 
-
+//        int nums[] = {1,2,3,4,5,6,7,8,9};
+//
+//        int sumOfEvenIdx = 0;
+//        int sumOfOddIdx = 0;
+//
+//        for (int i = 0; i < nums.length; i++){
+//            if(i%2==0){
+//                sumOfEvenIdx += nums[i];
+//            }else {
+//                sumOfOddIdx += nums[i];
+//            }
+//        }
+//
+//        System.out.println("Sum of Odd's: " + sumOfOddIdx);
+//        System.out.println("Sum of Even's: " + sumOfEvenIdx);
 
 
 
