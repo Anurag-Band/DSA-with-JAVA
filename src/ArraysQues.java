@@ -281,6 +281,36 @@ public class ArraysQues {
 //            System.out.println("First Idx: " + firstIdx);
 //            System.out.println("Last Idx: "+ lastIdx);
 
+//        ---------------------------------------------
+
+//        Q. 11) Count frequency of each element
+//        Steps :-
+//              1. Initialize the visited array of size n (size of array) & fill it with all f
+//              2. Traverse the array first
+//              3. Check if(vis[i]==false) initialize  vis[i]=true && int count = 1
+//              4. Run a loop from i + 1 to check how many times it is occurring
+//              5. if(arr[i] == arr[j]) then vis[j] = t && count++
+
+//        int [] arr = {10,2,3,3,5,6,6,7,8};
+//
+//        int n = arr.length;
+//        boolean [] vis = new boolean[n];
+//        Arrays.fill(vis, false);
+//
+//        for (int i = 0; i < n; i++){
+//            if(vis[i] == false){
+//                vis[i]=true;
+//                int count = 1;
+//                for (int j = i + 1; j < n; j++){
+//                    if(arr[i] == arr[j]){
+//                        vis[j] = true;
+//                        count++;
+//                    }
+//                }
+//                System.out.println(arr[i] + " => " + count);
+//            }
+//        }
+
 
 
     }
