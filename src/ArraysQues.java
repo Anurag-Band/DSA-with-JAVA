@@ -234,21 +234,24 @@ public class ArraysQues {
 
 //        123 -> 321
 
-        int start = 21;
-        int end = 25;
-        int sum = 0;
+//        int start = 21;
+//        int end = 25;
+//        int sum = 0;
+//
+//        for (int i = start; i <= end; i++){
+//            int rev = 0;
+//            int num = i;
+//            while (num > 0){
+//                int rem = num % 10;
+//                rev = rev * 10 + rem;
+//                num = num / 10;
+//            }
+//            sum += rev;
+//        }
+//        System.out.println("Sum: " + sum);
 
-        for (int i = start; i <= end; i++){
-            int rev = 0;
-            int num = i;
-            while (num > 0){
-                int rem = num % 10;
-                rev = rev * 10 + rem;
-                num = num / 10;
-            }
-            sum += rev;
-        }
-        System.out.println("Sum: " + sum);
+//        ---------------------------------------------
+
 
     }
 }
