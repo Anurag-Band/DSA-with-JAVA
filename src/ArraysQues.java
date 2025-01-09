@@ -395,6 +395,38 @@ public class ArraysQues {
 
 //        ---------------------------------------------
 
+//        Q. 15) Print the elements in Z form :-
+
+//        int [][]arr={
+//                {1,2,3,4},
+//                {5,5,7,8},
+//                {7,8,9,10},
+//                {8,9,10,11}};
+//
+//        int row= arr.length;
+//        int col= arr[0].length;
+//
+//      first row :-
+//        int i=0;
+//        for(int j=0;j<col-1;j++){
+//            System.out.print(arr[i][j]+" ");
+//        }
+//
+//      right diagonal :-
+//      for (int m=0; m<row-1; m++){
+//          for (int n=0; n<row; n++){
+//              if(m+n==row-1){
+//                  System.out.print(arr[m][n]+ " ");
+//              }
+//          }
+//      }
+//
+//      last row :-
+//        i = row-1;
+//        for(int j=0;j<row;j++){
+//            System.out.print(arr[i][j]+" ");
+//        }
+
 
     }
 }
