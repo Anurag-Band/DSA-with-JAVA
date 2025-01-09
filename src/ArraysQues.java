@@ -311,6 +311,26 @@ public class ArraysQues {
 //            }
 //        }
 
+//        ---------------------------------------------
+
+//        Q. 12) Intro to 2d Matrix :-
+
+//        int [][] matrix = {{1,2,3,4}, {4,5,6,7}, {7,8,9,10}};
+//
+//        int rows = matrix.length;
+//        int cols = matrix[0].length;
+//
+//        for (int i = 0; i < rows; i++){
+//            for (int j = 0; j < cols; j++){
+//                System.out.print(matrix[i][j] + " ");
+//            }
+//
+//            System.out.println();
+//        }
+
+
+
+
 
 
     }
