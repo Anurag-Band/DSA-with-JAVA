@@ -328,8 +328,37 @@ public class ArraysQues {
 //            System.out.println();
 //        }
 
+//        ---------------------------------------------
 
+//        Q. 13) Print the Left diagonal elements & Right diagonal elements of 2d Matrix :-
 
+//        int [][] matrix = { {1,2,3},
+//                            {4,5,6},
+//                            {7,8,9}
+//                          };
+//
+//        int rows = matrix.length;
+//        int cols = matrix[0].length;
+//
+//        for (int i = 0; i < rows; i++){
+//            for (int j = 0; j < cols; j++){
+//                if (i == j){   // formula to get left diagonal elems
+//                    System.out.print(matrix[i][j] + " ");
+//                }
+//            }
+//        }
+//
+//        System.out.println();
+//
+//        for (int i = 0; i < rows; i++){
+//            for (int j = 0; j < cols; j++){
+//                if (i + j == matrix.length - 1){   // formula to get right diagonal elems
+//                    System.out.print(matrix[i][j] + " ");
+//                }
+//            }
+//        }
+
+//        ---------------------------------------------
 
 
 
