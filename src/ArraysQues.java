@@ -360,6 +360,40 @@ public class ArraysQues {
 
 //        ---------------------------------------------
 
+//        Q. 14) Print the boundary elements :-
+
+//             0   1   2    3
+//         0 - 1   2   3    4
+//         1 - 4   5   6    7
+//         2 - 7   6   9    10
+
+
+//              0     1     2     3
+//         0 - 0,0   0,1   0,2   0,3
+//         1 - 1,0               1,3
+//         2 - 2.0   2,1   2,2   2,3
+
+
+//        condition to get boundry elems :- i==0 || j==0 || i == row-1 || j == col-1
+
+//        int [][] matrix =   {
+//                             {1,2,3,4},
+//                             {4,5,6,7},
+//                             {7,8,9,10},
+//                            };
+//
+//            int rows = matrix.length;
+//            int cols = matrix[0].length;
+//
+//            for (int i = 0; i < rows; i++){
+//                for (int j = 0; j < cols; j++){
+//                    if(i==0 || j==0 || i==rows-1 || j==cols-1){
+//                        System.out.print(matrix[i][j] + " ");
+//                    }
+//                }
+//            }
+
+//        ---------------------------------------------
 
 
     }
