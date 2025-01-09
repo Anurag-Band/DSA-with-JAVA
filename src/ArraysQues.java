@@ -427,6 +427,30 @@ public class ArraysQues {
 //            System.out.print(arr[i][j]+" ");
 //        }
 
+//        ---------------------------------------------
+
+//        Q. 16) Transpose of a Matrix :-
+
+//        int [][] matrix = { {1,2,3},
+//                            {4,5,6},
+//                            {7,8,9}
+//                          };
+//
+//        int rows = matrix.length;
+//        int cols = matrix[0].length;
+//
+//        int [][] transMatrix = new int[rows][cols];
+//
+//        for (int i = 0; i < rows; i++){
+//            for (int j = 0; j < cols; j++){
+//                transMatrix[i][j] = matrix[j][i];
+//                System.out.print(transMatrix[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+
+
+
 
     }
 }
