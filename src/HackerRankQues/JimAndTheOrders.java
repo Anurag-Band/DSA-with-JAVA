@@ -39,7 +39,7 @@ public class JimAndTheOrders {
 
         }
 }
-//
+
 //The issue in your code lies in the handling of duplicate deliveryTime values in the HashMap. When two orders have the same deliveryTime, the HashMap will overwrite the previous entry with the same key, as HashMap does not allow duplicate keys. This results in incorrect mapping of delivery times to order indices.
 //
 //To fix this issue, you need to handle duplicate deliveryTime values properly. Instead of using a HashMap, you can use an array of objects (or a list of pairs) that stores both the deliveryTime and the order index. Then, you can sort this array or list based on deliveryTime, and in case of ties, based on the order index.
